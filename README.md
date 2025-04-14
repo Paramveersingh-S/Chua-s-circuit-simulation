@@ -2,18 +2,18 @@ Sure! Here's a `README.md` file for your Chua's Circuit simulation project:
 
 ---
 
-```markdown
-# 🌀 Chua's Circuit Simulation in Python
+
+ 🌀 Chua's Circuit Simulation in Python
 
 This project simulates **Chua’s Circuit**, a classic example of a simple electronic circuit that exhibits **chaotic behavior**. The simulation is implemented in Python using `scipy` for solving the differential equations and `matplotlib` for visualization.
 
 ---
 
-## 📚 Overview
+ 📚 Overview
 
 **Chua’s Circuit** is governed by a system of three non-linear differential equations involving a piecewise-linear function that models the Chua diode. It’s widely used in the study of nonlinear dynamics and chaos theory.
 
-### System of Equations:
+ System of Equations:
 
 ```
 dx/dt = α (y - x - h(x))  
@@ -25,7 +25,7 @@ Where h(x) = m₁x + 0.5(m₀ - m₁)(|x + 1| - |x - 1|)
 
 ---
 
-## 🛠 Requirements
+
 
 Make sure you have the following Python packages installed:
 
@@ -70,7 +70,7 @@ pip install numpy scipy matplotlib
 
 ## 🧠 Author
 
-Made with 💡 by an Electronics + Chaos Theory Enthusiast
+Made with 💡 by Paramveer singh
 
 ---
 
@@ -79,6 +79,3 @@ Made with 💡 by an Electronics + Chaos Theory Enthusiast
 This project is open source and free to use for educational and research purposes.
 ```
 
----
-
-Let me know if you'd like this tailored for a GitHub repo with images, or to generate the plots as static PNGs for the README!
